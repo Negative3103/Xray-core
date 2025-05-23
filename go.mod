@@ -1,6 +1,6 @@
 module github.com/xtls/xray-core
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344
@@ -15,6 +15,7 @@ require (
 	github.com/refraction-networking/utls v1.3.2
 	github.com/sagernet/sing v0.2.4
 	github.com/sagernet/sing-shadowsocks v0.2.1
+	github.com/sagernet/sing-tun v0.1.4
 	github.com/sagernet/wireguard-go v0.0.0-20221116151939-c99467f53f2c
 	github.com/seiflotfy/cuckoofilter v0.0.0-20220411075957-e3b120b3f5fb
 	github.com/stretchr/testify v1.8.2
@@ -24,7 +25,7 @@ require (
 	golang.org/x/crypto v0.8.0
 	golang.org/x/net v0.9.0
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.7.0
+	golang.org/x/sys v0.33.0
 	google.golang.org/grpc v1.54.0
 	google.golang.org/protobuf v1.30.0
 	gvisor.dev/gvisor v0.0.0-20220901235040-6ca97ef2ce1c
@@ -51,7 +52,6 @@ require (
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/sagernet/go-tun2socks v1.16.12-0.20220818015926-16cb67876a61 // indirect
 	github.com/sagernet/netlink v0.0.0-20220905062125-8043b4a9aa97 // indirect
-	github.com/sagernet/sing-tun v0.1.4 // indirect
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	golang.org/x/exp v0.0.0-20230321023759-10a507213a29 // indirect
